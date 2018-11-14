@@ -21,18 +21,18 @@ GEM
     json (2.1.0)
     method_source (0.9.0)
     minitest (5.11.3)
-    mustermann (1.0.2)
+    mustermann (1.0.3)
     pg (0.21.0)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    rack (2.0.4)
-    rack-protection (2.0.1)
+    rack (2.0.6)
+    rack-protection (2.0.4)
       rack
-    sinatra (2.0.1)
+    sinatra (2.0.4)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.4)
       tilt (~> 2.0)
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
@@ -51,7 +51,7 @@ DEPENDENCIES
   json
   pg (= 0.21)
   pry
-  sinatra
+  sinatra (>= 2.0.2)
   sinatra-activerecord
   sinatra-cross_origin (~> 0.3.1)
 
